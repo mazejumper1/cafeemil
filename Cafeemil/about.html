@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/Cafe_emil_logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HJEM</a></li>
+                    <li><a href="">BESTIL BORD</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">OM OS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Om os</h1>
+    </section>
+    <!---------------------------om os content-->
+        <section class="about-us">
+            
+            <p></p>
+            
+            <div class="row">
+
+                <div class="about-col">
+                    <h3>Hvad er cafeemil?</h3>
+                    <p>Café Emil er bl.a. kendt for sit udsøgte menukort og sine lækre kaffespecialiteter. Når udendørs servering tillader det, har vi 80 dejlige og solrige pladser på Spinderiet ShoppingCenter, så man kan nyde sin kaffe eller mad i den friske luft.
+                        Café Emil er stedet hvor man spiser sin brunch og læser dagens avis,
+                        går hen i frokostpausen og spiser en lækker sandwich eller salat, nyder en kop kaffe i hyggelige omgivelser, der er også mulighed for at nyde en lækker bøf og glas vin om aftenen.!
+                        
+                        Er du på udkig efter rummelige, fotte lokaler og fantastisk mad til din næste fest eller sammenkomst?
+                        Hos Cafe Emil tilbyder vi de perfekte rammer for en mindeværdig fødselsdag, konfrmation eller lignende. kan både sørge for lækker mad, veloplagte tjenere og smuk udsmykning efter dine ønsker.
+                        Vi tilbyder velsmagende og moderne mad. Med en række forskellige menuer, der alle er kreativt sammensat med friske råvarer fra sæsonen, kan vi effektivt imødekomme de fleste behov.</p>
+                    </div>
+
+                
+                    <div class="about-col">
+                        <img src="image/cafeemil3.jpg">
+                    </div>
+                    
+                    
+            </div>
+       
+        </section>
+</div>
+
+    
+
+    
+
+
+   
+    <!-------Javascript til burgermenuen------>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html> 

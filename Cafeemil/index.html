@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Cafe_emil_logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HJEM</a></li>
+                    <li><a href="">BESTIL BORD</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">OM OS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+<h1>Slogan slogan slogan</h1>
+<p>
+    Café Emil...Altid de bedste råvarer! Vi ligger vægt på lyse og hyggelige omgivelser, hvor man virkelig føler sig hjemme.
+     </p>
+     <a href="" class="hero-btn">Besøg os</a>
+</div>
+
+    </section>
+
+    
+    <!-------Javascript til burgermenuen------>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html> 
